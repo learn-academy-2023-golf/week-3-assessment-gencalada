@@ -96,7 +96,7 @@ test('Sort studyMinutesWeek2 values in ascending order', () => {
 
 // Pseudo code:
 //using chatGPT i asked it to create the functions above to solve the prompt and given variables.
-//for the prompt, it looks like Object.value gives us the values of theobject into an array.
+//for the prompt, it looks like Object.value gives us the values of the object into an array.
 //sorts the values in acending order (pseudo code was already given by chatGPT for that line)
 //then simply returns those values still in an array.
 //

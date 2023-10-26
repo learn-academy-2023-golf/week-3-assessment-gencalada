@@ -9,7 +9,7 @@ Creating a technical portfolio website is a big undertaking. Portfolios are almo
 Wire frames are used to outline the basic structure of your site. Wire frames should be vague enough to give you flexibility in your development process but structured enough to ensure all appropriate elements are present. 
 
 Submit the link to your wire frames:
-
+https://www.figma.com/file/AkSZWjza1pIqAkFAUUA735/Untitled?type=design&node-id=0%3A1&mode=design&t=EaQFCvdsjMb2z3Sn-1
 
 ### LinkedIn
 

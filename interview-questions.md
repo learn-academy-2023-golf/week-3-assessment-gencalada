@@ -30,8 +30,8 @@ Researched answer: A div element is used for overall organization; a bit like a 
 
 ## Looking Ahead: Terms for Next Week
 
-1. DOM: 
+1. DOM: Document Object Model is a programming interface for web documents.
 
-2. Object-oriented programming:
+2. Object-oriented programming: programming language that revolves around objects. 
 
-3. Ruby:
+3. Ruby: an OOP language that is known for being simle to use and productive

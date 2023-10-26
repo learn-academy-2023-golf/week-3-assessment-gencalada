@@ -53,7 +53,6 @@ function sortObjectValues(obj) {
 }
 
 const sortedValues = sortObjectValues(studyMinutesWeek1);
-
 console.log(sortedValues)
 
 // a) Create a test with expect statements for each of the variables provided.

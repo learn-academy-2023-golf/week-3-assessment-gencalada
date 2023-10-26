@@ -21,7 +21,7 @@ Researched answer: yarn is a package manager for yur code. its typically used to
 3. What is the difference between state values and props in React?
 
 Your answer: state values are essentially special values that we can reuse/call back on.
-
+    
 Researched answer: Props are typically used to pass data from a parent component to a child component, while state is used to manage the data within components.
 
 4. STRETCH: Which is the difference between a div tag and a span tag?

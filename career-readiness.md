@@ -12,7 +12,7 @@ Submit the link to your wire frames:
 https://www.figma.com/file/AkSZWjza1pIqAkFAUUA735/Untitled?type=design&node-id=0%3A1&mode=design&t=EaQFCvdsjMb2z3Sn-1
 
 ### LinkedIn
-
+    
 Your LinkedIn url:
 
 Check the boxes below to certify that you have completed the following items on LinkedIn:

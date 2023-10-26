@@ -34,7 +34,7 @@
         const suit = ["❤️", "♦️", "♠️", "♣️"]
         const rank = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"]
         const [hand, setHand] = useState([])
-
+        
         const drawCard = () => {
           const draw = `${rank[Math.floor(Math.random() * rank.length)]} ${suit[Math.floor(Math.random() * suit.length)]}`
           if(hand.indexOf(draw) === -1) {

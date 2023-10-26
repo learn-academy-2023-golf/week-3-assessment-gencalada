@@ -16,4 +16,4 @@ Answer the following questions. Use the Nugget + STAR method for each answer.
 - Situation: During my last jos as a security officer, I had an officer who pulled me off to the side to talk about some personal matters. During which he was expressing symptoms that resembled a panic attack.
 - Task: the first issue that presented itself was making sure the officers responsabilities were properly taken over by another officer.
 - Action: As soon as the officer requested to talk with me on the side, I had another officer temporarily assume his responsabilities until he returned. As for during the officer being in a panic state, I simply isolated the officer, gave him some water and verbally guided him through his issues as best I could. 
-- Result: Once the officer came to, he was reccomended to take the rest of the day off using sick time. 
+- Result: Once the officer came to, he was reccomended to take the rest of the day off using sick time.     

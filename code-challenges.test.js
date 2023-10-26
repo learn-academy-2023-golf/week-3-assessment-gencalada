@@ -9,7 +9,7 @@
 
 // Reminder: The test will call your function
 // Run the file with the following command: $ yarn jest
-
+  
 // --------------------1) Prompt: Create a function that takes in a number (greater than 2) and returns an array containing the Fibonacci sequence. The length of the array is determined by the argument of the function.
 
 function generatedFibSequence(length) {//length is the parameter

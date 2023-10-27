@@ -34,7 +34,7 @@
         const suit = ["❤️", "♦️", "♠️", "♣️"]
         const rank = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"]
         const [hand, setHand] = useState([])
-
+        
         const drawCard = () => {
           const draw = `${rank[Math.floor(Math.random() * rank.length)]} ${suit[Math.floor(Math.random() * suit.length)]}`
           if(hand.indexOf(draw) === -1) {
@@ -65,13 +65,6 @@
         // No need to change anything ABOVE this line ^
 
         return (
-          <h1>Draw a Card</h1>
-          <button onClick={}>
-            Click to Draw a Card
-          </button>
-          <button onclick={shuffle}>
-            Return Cards and Shuffle Deck
-          </button>
           <div style={handStyles}>
             {hand.map((card, index) => {
               return (
@@ -80,6 +73,9 @@
                 </div>
               )
             })}
+            <h1>Draw a Card</h1>
+          <button onClick={drawCard}>Click to Draw a Card</button>
+          <button onClick={shuffle}>Return Cards and Shuffle Deck</button>
           </div>
         )
       }
@@ -92,3 +88,5 @@
     </script>
   </body>
 </html>
+
+<!-- this was actually pretty fun! so the first thing I did was read the code in its entirety. As soon as I saw the array everything from the html title tag to the const names all led to a card generator of sorts. Then narrowing down to the set of code we needed to focus on, I noticed buttons labeled "Click to Draw a Card" and "Return Cards and Shuffle Deck" which solidified my reasoning. The next thing I noticed were the red scribble lines under the code. Before attempting anything else, I rearranged the button closing tags onto the same line as their respective opening. After, I dragged the html file onto chrome and noticed nothing was displaying other than a white screen. refreshing a few times, i went to inpect the page and saw there was an error pointing to the first button. focusing more on the buttons, I noticed the onClick for the "Click to Draw a Card" button wasnt set to anything so I went back and referred to the the consts made and set it to "drawCard". As I did that, I noticed a syntax error on the second onClick button which was the "c" on onClick was lowercase instead of upercase. going back to the page, it was still a blank white screen, so i inspected again and noticed a message stating the given code needed to be enclosed in closing tags (I cant remember exactly what it said). Remembering the exact instance my partner and i were in when creating the dice roll challenge, I cut and pasted the code within the first and second Div tags. after doing that, i went back to the page and it was finally displaying content and the buttons worked perfectly! -->

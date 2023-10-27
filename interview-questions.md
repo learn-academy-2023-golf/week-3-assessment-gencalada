@@ -10,7 +10,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 Your answer: JSX is a mesh of javascript and html. A syntax difference is in html everything can be lower case where as in javascript, we use camelCase.
 
-Researched answer: JSX stands for javascript XML. It is an extention of wavascript writing. its typically used within react describing what a UI should look like. 
+Researched answer: JSX stands for javascript XML. It is an extention of javascript writing. its typically used within react describing what a UI should look like. 
 
 2. What is yarn? What file(s) are modified when you run the command yarn in your terminal?
 
@@ -21,7 +21,7 @@ Researched answer: yarn is a package manager for yur code. its typically used to
 3. What is the difference between state values and props in React?
 
 Your answer: state values are essentially special values that we can reuse/call back on.
-    
+
 Researched answer: Props are typically used to pass data from a parent component to a child component, while state is used to manage the data within components.
 
 4. STRETCH: Which is the difference between a div tag and a span tag?

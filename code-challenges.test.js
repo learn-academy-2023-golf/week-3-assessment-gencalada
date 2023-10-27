@@ -9,7 +9,7 @@
 
 // Reminder: The test will call your function
 // Run the file with the following command: $ yarn jest
-  
+
 // --------------------1) Prompt: Create a function that takes in a number (greater than 2) and returns an array containing the Fibonacci sequence. The length of the array is determined by the argument of the function.
 
 function generatedFibSequence(length) {//length is the parameter
@@ -28,6 +28,12 @@ fibArr.push(fibArr[i - 1] + fibArr[i - 2]);//similar to equation i had below, 2 
 
 
 // a) Create a test with expect statements for each of the variables provided.
+describe("generatedFibSequence", () => {
+  it("returns an array containing the Fibonacci sequence. The length of the array is determined by the argument of the function", () => {
+    expect(fibSeq(fibonacciLength1).toEqual([1, 1, 2, 3, 5, 8]));
+    expect(fibSeq(fibonacciLength2).toEqual([1, 1, 2, 3, 5, 8, 13, 21, 34, 55]));
+  });
+});
 
 const fibonacciLength1 = 6
 // Expected output: [1, 1, 2, 3, 5, 8]
@@ -36,6 +42,7 @@ const fibonacciLength2 = 10
 // Expected output: [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
 
 // b) Create the function that makes the test pass.
+  
 
 ////// Pseudo code:
 ////// create a const with the first two values of the fib sequence.
